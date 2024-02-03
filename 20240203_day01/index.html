@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    a{
+        text-decoration: none;
+        color: rgb(21, 21, 21);
+        font-weight: 600;
+    }
+    .button-google{
+        border:0px;
+        padding: 8px;
+        cursor: pointer;
+        border-radius: 12px;
+        font-size: 1rem;
+    }
+    .button-google:hover{
+        background-color: rgb(153, 153, 153);
+    }
+    .img-nongdamgom{
+        width: 500px;
+        height: auto;
+    }
+</style>
+<body>
+    <h1>안녕</h1>
+    <h2>지금 시간은 아래와 같아.</h2>
+<button class="button-google" onclick=><a href="https://www.google.com">구굴</a></button>
+
+<a href="https://www.naver.com">네이붤</a>
+<img src="./nongdamgom.png" class="img-nongdamgom">
+</body>
+<script>
+    let todayDate = Date();
+    // setInterval(() => document.write(`<h3>${todayDate}</h3>`),2000);
+
+    document.getElementsByTagName("h1").innerHTML=DnowTime(()=>{
+        `<h3>${todayDate}</h3>`;
+    })
+</script>
+</html>
