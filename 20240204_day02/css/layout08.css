@@ -1,0 +1,80 @@
+* body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Pretendard';
+    color:rgb(209, 209, 209);
+}
+.container{
+    box-sizing: border-box;
+    background-color: rgb(34, 34, 34);
+    width: 100vw;
+    height: 100vh;
+}
+.nav-bar{
+    width: 100%;
+    height: 52px;
+    box-shadow: rgba(27, 27, 27, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 6px 12px;
+}
+.nav-user-info{
+    width: 20%;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    
+}
+.nav-user-info p,.nav-user-info h4{
+    margin: 0;
+    font-weight: normal;
+}
+.nav-logo{
+    height: 28px;
+    width: auto;
+    object-fit: cover;
+}
+.content-wrap{
+    padding:0 24px
+}
+.main-banner-container{
+    background-image: url("../image/nongdamgom.png");
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+.main-banner-container div:hover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(37, 37, 37, 0.1);
+    border-radius: 30px;
+}
+
+@media screen and  (min-width : 321px) and (max-width : 767px) {
+    .content-container{
+        min-width: 250px;
+        height: auto;
+    }
+}
+@media screen and (min-width : 768px)and (max-width : 1365px) {
+    .content-container{
+        min-width: 600px;
+        height: auto;
+    }
+}
+@media screen and (min-width : 1366px) {
+    .content-container{
+        min-width: 1200px;
+        height: auto;
+    }
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
