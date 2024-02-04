@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    
+}
+.style{
+    background-color: rgb(82, 159, 133);
+    width:250px;
+    height:250px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.5rem;
+}
+.whole-div{
+    margin: 0 auto;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 48px;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.container :first-child{
+    width: 20%;
+    height: 500px;
+}
+.container :nth-child(2){
+    width: 80%;
+    height: 500px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+}
